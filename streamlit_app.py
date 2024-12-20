@@ -114,7 +114,7 @@ def main():
 
 
     numeric_features_reshaped = numeric_features.reshape(1, -1)
-    st.write(numeric_features_reshaped)
+    #st.write(numeric_features_reshaped)
     scaled_features = scaler.transform(numeric_features_reshaped)
     
 
@@ -132,7 +132,7 @@ def main():
         float(contact_encoded)
     ]
 
-    st.write(input_features)
+    #st.write(input_features)
 
     diagnosis = ''
     probability = 0.0
